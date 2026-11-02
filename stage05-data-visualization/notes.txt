@@ -1,0 +1,71 @@
+
+STAGE 05 - DATA VISUALIZATION
+
+Data Visualization:
+Representing data using charts and graphical elements.
+
+Matplotlib:
+A Python library for creating charts and visualizations.
+
+Figure:
+The top-level container for a Matplotlib visualization.
+
+Axes:
+The area where data is plotted within a figure.
+
+Line Plot:
+A chart that connects data points with lines.
+
+Bar Chart:
+A chart that compares values across categories.
+
+Histogram:
+A chart that shows the frequency distribution of numerical data.
+
+Scatter Plot:
+A chart that displays relationships between two numerical variables.
+
+Box Plot:
+A chart that summarizes a distribution using quartiles and whiskers.
+
+Exploratory Data Analysis (EDA):
+The process of examining data to discover patterns and potential problems.
+
+Distribution:
+The way numerical values are spread across a dataset.
+
+Frequency:
+The number of times a value or interval occurs.
+
+Bin:
+An interval used to group values in a histogram.
+
+Correlation:
+A measure of the relationship between variables.
+
+Correlation Coefficient:
+A numerical measure of the strength and direction of a relationship.
+
+Causation:
+A relationship where a change in one factor produces a change in another.
+
+Median:
+The middle value of an ordered dataset.
+
+Quartile:
+A value dividing ordered data into four parts.
+
+Interquartile Range (IQR):
+The difference between the third and first quartiles.
+
+Outlier:
+An observation that differs noticeably from other values.
+
+Standard Deviation:
+A measure of how spread out numerical values are.
+
+Annotation:
+Text or labels added to a visualization.
+
+DPI:
+Dots per inch, a measure related to image resolution.

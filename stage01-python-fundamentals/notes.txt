@@ -1,0 +1,62 @@
+
+STAGE 01 - PYTHON FUNDAMENTALS
+
+Variable:
+A named reference to a value in a program.
+
+Data Type:
+A classification that determines the kind of value.
+
+Integer (int):
+A whole-number data type.
+
+Float:
+A data type for floating-point numbers.
+
+String (str):
+A sequence of characters used to represent text.
+
+Boolean (bool):
+A data type with True and False values.
+
+List:
+An ordered and mutable collection of items.
+
+Dictionary:
+A collection of key-value pairs.
+
+Index:
+A position used to access a sequence element.
+
+Condition:
+An expression evaluated as True or False.
+
+Conditional Statement:
+A control structure that selects actions based on conditions.
+
+Loop:
+A structure used to repeat operations.
+
+For Loop:
+A loop that iterates over elements of an iterable.
+
+Function:
+A reusable block of code that performs a task.
+
+Parameter:
+A variable defined in a function signature.
+
+Argument:
+A value supplied when calling a function.
+
+Return Value:
+A value returned by a function.
+
+Iteration:
+One execution of a loop body.
+
+Average:
+The arithmetic mean of a set of numbers.
+
+Pass Rate:
+The percentage of students who meet a passing threshold.

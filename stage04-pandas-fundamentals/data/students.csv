@@ -1,0 +1,10 @@
+
+student_id,name,department,score,study_hours
+1,Alice,Engineering,85,8
+2,Bob,Design,42,3
+3,Charlie,Engineering,76,6
+4,Diana,Design,,4
+5,Eve,Engineering,95,10
+6,Frank,Marketing,68,5
+7,Grace,Marketing,110,7
+8,Henry,Design,35,2

@@ -1,0 +1,68 @@
+
+STAGE 04 - PANDAS FUNDAMENTALS
+
+Pandas:
+A Python library for data manipulation and analysis.
+
+Series:
+A one-dimensional labeled data structure.
+
+DataFrame:
+A two-dimensional labeled table with rows and columns.
+
+CSV:
+A text format for storing tabular data using delimiters.
+
+Index:
+Labels used to identify rows in a DataFrame.
+
+Column:
+A named sequence of values in a table.
+
+Head:
+An operation that returns the first rows of a DataFrame.
+
+Tail:
+An operation that returns the last rows of a DataFrame.
+
+loc:
+An indexer for selecting data by labels.
+
+iloc:
+An indexer for selecting data by integer positions.
+
+Filtering:
+Selecting rows or values that satisfy conditions.
+
+Missing Value:
+A value that is absent from a dataset.
+
+NaN:
+A floating-point value commonly used to represent missing numerical data.
+
+Data Cleaning:
+The process of identifying and handling problematic data.
+
+dropna:
+A Pandas method for removing rows or columns with missing values.
+
+Data Type Conversion:
+Changing data from one representation or type to another.
+
+GroupBy:
+An operation that groups data based on one or more keys.
+
+Aggregation:
+Combining multiple values into a summary result.
+
+Mean:
+The arithmetic average of numerical values.
+
+Boolean Indexing:
+Selecting data using Boolean conditions.
+
+Sorting:
+Arranging data according to one or more values.
+
+Pass Rate:
+The percentage of valid records meeting a passing threshold.

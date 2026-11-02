@@ -1,0 +1,59 @@
+
+STAGE 06 - LINEAR ALGEBRA AND CALCULUS
+
+Scalar:
+A single numerical value.
+
+Vector:
+A mathematical object with numerical components.
+
+Matrix:
+A rectangular arrangement of numerical values.
+
+Dot Product:
+The sum of products of corresponding vector components.
+
+Matrix Multiplication:
+An operation that combines matrices using row-column dot products.
+
+Transpose:
+An operation that exchanges matrix rows and columns.
+
+Function:
+A mapping that assigns an output to an input.
+
+Slope:
+The rate of change of a function.
+
+Derivative:
+The instantaneous rate of change of a function.
+
+Partial Derivative:
+The derivative of a multivariable function with respect to one variable.
+
+Gradient:
+A vector containing the partial derivatives of a scalar-valued function.
+
+Loss Function:
+A function that measures prediction error.
+
+Mean Squared Error (MSE):
+The mean of squared differences between predictions and targets.
+
+Gradient Descent:
+An optimization algorithm that updates parameters using negative gradients.
+
+Learning Rate:
+A parameter controlling the size of an optimization step.
+
+Weight:
+A parameter that controls a feature's contribution to a prediction.
+
+Bias:
+An additive parameter in a model.
+
+Epoch:
+One complete pass through the training dataset.
+
+Optimization:
+The process of finding parameter values that improve an objective.

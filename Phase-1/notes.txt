@@ -1,0 +1,607 @@
+
+PHASE 1 RE-STUDY — FOUNDATIONS REVIEW
+
+============================================================
+1. MACHINE LEARNING FUNDAMENTALS
+============================================================
+
+Artificial Intelligence (AI):
+Systems designed to perform tasks associated with human intelligence.
+
+Machine Learning (ML):
+Methods that learn patterns or relationships from data.
+
+Dataset:
+A collection of observations used for analysis or learning.
+
+Sample:
+One observation in a dataset.
+
+Feature (X):
+An input variable used by a model.
+
+Target (y):
+The value that a supervised learning model attempts to predict.
+
+Model:
+A mathematical or computational function that maps inputs to outputs.
+
+Prediction (y_hat):
+The output produced by a model.
+
+Training:
+The process of learning model parameters from data.
+
+Inference:
+Using a model to generate predictions.
+
+Parameter:
+A model value learned or adjusted during training.
+
+Hyperparameter:
+A configuration value chosen outside the parameter-learning process.
+
+Weight:
+A parameter controlling the contribution of an input.
+
+Bias:
+An additive parameter in a model.
+
+Supervised Learning:
+Learning from examples with known target values.
+
+Rule-Based Programming:
+Executing explicitly defined rules without learning them from data.
+
+KEY DISTINCTION:
+A fixed formula is not automatically a trained ML model.
+Learning model parameters from data is what makes the
+gradient descent example a machine learning experiment.
+
+
+============================================================
+2. PYTHON FUNDAMENTALS
+============================================================
+
+Variable:
+A name referencing a value.
+
+List:
+An ordered, mutable collection that allows duplicates.
+
+Tuple:
+An ordered, immutable collection.
+
+Set:
+A collection of unique elements.
+
+Dictionary:
+A collection of key-value pairs.
+
+Index:
+A position used to access a sequence element.
+
+Slice:
+A selection of elements using start, stop, and step.
+
+Condition:
+An expression that evaluates to True or False.
+
+Loop:
+A structure that repeats operations.
+
+Function:
+A reusable block of instructions.
+
+Argument:
+A value supplied to a function call.
+
+Parameter:
+A name declared in a function definition.
+
+Return Value:
+The result provided by a function through return.
+
+Exception:
+An event that interrupts normal program execution.
+
+IMPORTANT SYNTAX:
+
+=    Assignment
+==   Equality comparison
+!=   Inequality comparison
+>=   Greater than or equal to
+%    Remainder
+//   Floor division
+**   Exponentiation
++=   Add and assign
+
+IMPORTANT DISTINCTIONS:
+
+print() displays a value.
+return sends a value back to the caller.
+
+len(items) returns the number of elements.
+items.length is not valid for Python lists.
+
+items[0] selects the first element.
+items[-1] selects the last element.
+
+A valid program can still produce logically incorrect results.
+
+
+============================================================
+3. DATA STRUCTURES AND ALGORITHMS
+============================================================
+
+Algorithm:
+A sequence of instructions for solving a problem.
+
+Searching:
+Finding an element within a collection.
+
+Sorting:
+Arranging elements according to an ordering.
+
+Linear Search:
+Checking elements sequentially.
+
+Binary Search:
+Repeatedly reducing a sorted search space.
+
+Time Complexity:
+How computational cost scales with input size.
+
+Big O Notation:
+A description of asymptotic upper growth bounds.
+
+O(1):
+Constant growth with input size.
+
+O(log n):
+Logarithmic growth.
+
+O(n):
+Linear growth.
+
+O(n log n):
+A common complexity class for efficient sorting.
+
+O(n^2):
+Quadratic growth.
+
+Data Validation:
+Checking whether data satisfies defined rules.
+
+Data Cleaning:
+Identifying and handling problematic observations.
+
+Median:
+The central value of sorted observations.
+
+REMEMBER:
+
+Sorting and reversing are different operations.
+
+Removing duplicates while preserving order requires
+tracking values already encountered.
+
+A condition must be applied to the intended dataset.
+
+
+============================================================
+4. NUMPY AND LINEAR ALGEBRA
+============================================================
+
+NumPy:
+A library for numerical computation.
+
+ndarray:
+NumPy's multidimensional array object.
+
+Scalar:
+A single numerical value.
+
+Vector:
+A mathematical object with numerical components.
+
+Matrix:
+A two-dimensional arrangement of values.
+
+Shape:
+The lengths of an array's axes.
+
+Dimension:
+An axis of an array.
+
+dtype:
+The data type of array elements.
+
+Indexing:
+Accessing elements by position.
+
+Slicing:
+Selecting a subset of an array.
+
+Vectorization:
+Applying numerical operations to arrays without
+explicit Python-level element loops.
+
+Broadcasting:
+Combining arrays with compatible shapes.
+
+Boolean Mask:
+Boolean values used to select array elements.
+
+Axis:
+A dimension along which an operation is performed.
+
+Dot Product:
+The sum of corresponding vector element products.
+
+Matrix Multiplication:
+Combining rows and columns through dot products.
+
+Transpose:
+Exchanging the rows and columns of a matrix.
+
+IMPORTANT DISTINCTIONS:
+
+Python list * 2 repeats a list.
+NumPy array * 2 multiplies every element by 2.
+
+NumPy * performs element-wise multiplication.
+NumPy @ performs matrix multiplication.
+
+axis=0 aggregates down the rows, producing
+one result per column for a 2D matrix.
+
+axis=1 aggregates across columns, producing
+one result per row for a 2D matrix.
+
+np.argmax() returns the position of a maximum.
+np.max() returns the maximum value.
+
+np.clip() limits values to a specified range.
+Boolean indexing selects values; it does not
+automatically modify them.
+
+LINEAR MODEL:
+
+y_hat = X @ w + b
+
+X: Feature matrix
+w: Weight vector
+b: Bias
+y_hat: Predictions
+
+
+============================================================
+5. PANDAS AND DATA PROCESSING
+============================================================
+
+Pandas:
+A library for tabular data analysis.
+
+Series:
+A one-dimensional labeled data structure.
+
+DataFrame:
+A two-dimensional labeled data structure.
+
+CSV:
+A text format for storing tabular data.
+
+Index:
+Row labels used for data alignment and selection.
+
+loc:
+Label-based indexing.
+
+iloc:
+Integer-position-based indexing.
+
+Missing Value:
+An absent observation.
+
+NaN:
+A value frequently used for missing numerical data.
+
+Filtering:
+Selecting records that satisfy conditions.
+
+GroupBy:
+Grouping observations according to one or more keys.
+
+Aggregation:
+Summarizing many values into fewer values.
+
+Boolean Indexing:
+Selecting rows using Boolean conditions.
+
+IMPORTANT OPERATIONS:
+
+pd.read_csv(path)
+df.head()
+df.info()
+df.describe()
+df["column"]
+df[["column_a", "column_b"]]
+df.loc[label]
+df.iloc[position]
+df.isna().sum()
+df.dropna(subset=["column"])
+df.groupby("group")["value"].mean()
+df.sort_values("value", ascending=False)
+
+IMPORTANT DISTINCTIONS:
+
+df["score"] is a Series.
+["score"] is an ordinary Python list.
+
+Use & for element-wise AND in Pandas conditions.
+Parenthesize each condition.
+
+Prefer cleaning a working copy when the original
+data must remain available.
+
+
+============================================================
+6. DATA VISUALIZATION
+============================================================
+
+Matplotlib:
+A library for creating visualizations.
+
+Bar Chart:
+Compares categorical values.
+
+Histogram:
+Shows frequencies within numerical intervals.
+
+Scatter Plot:
+Shows relationships between numerical variables.
+
+Line Plot:
+Shows values along an ordered sequence, often time.
+
+Box Plot:
+Summarizes a distribution using quantiles and whiskers.
+
+EDA:
+Exploratory Data Analysis.
+
+Distribution:
+How observed values are spread.
+
+Correlation:
+A measure of association between variables.
+
+Outlier:
+An observation unusually distant from other values.
+
+IMPORTANT DISTINCTIONS:
+
+Bar charts compare categories.
+Histograms summarize numerical distributions.
+
+Correlation does not establish causation.
+
+A graph must have meaningful axes, titles, and units.
+
+plt.savefig() saves the figure.
+plt.show() displays the figure.
+plt.close() releases the figure.
+
+
+============================================================
+7. CALCULUS AND OPTIMIZATION
+============================================================
+
+Function:
+A mapping from inputs to outputs.
+
+Derivative:
+The instantaneous rate of change of a function.
+
+Partial Derivative:
+A derivative with respect to one variable while
+other variables are held constant.
+
+Gradient:
+A vector of partial derivatives.
+
+Loss Function:
+A function measuring prediction error.
+
+Mean Squared Error (MSE):
+The mean of squared prediction errors.
+
+Gradient Descent:
+An optimization method that moves parameters
+opposite the gradient.
+
+Learning Rate:
+The step size used during parameter updates.
+
+Epoch:
+One complete pass through the training dataset.
+
+Optimization:
+Improving an objective by adjusting parameters.
+
+LINEAR REGRESSION:
+
+y_hat = w * x + b
+
+MSE:
+
+MSE = mean((y_hat - y) ** 2)
+
+GRADIENTS FOR SINGLE-FEATURE LINEAR REGRESSION:
+
+dL/dw = 2 * mean(x * (y_hat - y))
+dL/db = 2 * mean(y_hat - y)
+
+PARAMETER UPDATES:
+
+w_new = w_old - learning_rate * dL/dw
+b_new = b_old - learning_rate * dL/db
+
+REMEMBER:
+
+The gradient indicates the direction of fastest
+local increase of a differentiable scalar function.
+
+Subtracting the gradient can reduce the loss.
+
+A learning rate that is too small may converge slowly.
+
+A learning rate that is too large may cause divergence.
+
+A low training loss does not guarantee good performance
+on unseen data.
+
+
+============================================================
+8. PROBABILITY AND STATISTICS
+============================================================
+
+Population:
+The complete collection of observations of interest.
+
+Sample:
+A subset selected from a population.
+
+Mean:
+The arithmetic average.
+
+Variance:
+The average squared deviation from the mean
+for a population.
+
+Standard Deviation:
+The square root of variance.
+
+Probability:
+A numerical measure of event likelihood.
+
+Conditional Probability:
+The probability of an event given another event.
+
+Random Variable:
+A value determined by a random outcome.
+
+Probability Distribution:
+A description of the probabilities of outcomes.
+
+Bernoulli Distribution:
+A distribution with two possible outcomes.
+
+Normal Distribution:
+A continuous symmetric bell-shaped distribution.
+
+Random Seed:
+An initialization value used for reproducible
+pseudorandom generation.
+
+Sampling Distribution:
+The probability distribution of a statistic
+computed from repeated samples.
+
+Central Limit Theorem:
+Under appropriate conditions, standardized sample
+means approach a normal distribution as sample
+size increases.
+
+Standard Error:
+The standard deviation of a sampling distribution.
+
+IMPORTANT FORMULAS:
+
+Mean = sum(values) / n
+
+Population variance = sum((x - mean)^2) / n
+
+Population standard deviation = sqrt(variance)
+
+Sample variance = sum((x - sample_mean)^2) / (n - 1)
+
+P(A | B) = P(A and B) / P(B), for P(B) > 0
+
+Standard error of the mean = sigma / sqrt(n)
+for independent observations with finite variance.
+
+IMPORTANT DISTINCTIONS:
+
+ddof=0 calculates population variance or standard
+deviation using denominator n.
+
+ddof=1 uses denominator n-1 for variance.
+
+A sampling distribution is not the same as
+the distribution of individual observations.
+
+Larger samples generally reduce the standard
+error of a sample mean.
+
+
+============================================================
+9. MACHINE LEARNING WORKFLOW
+============================================================
+
+1. Define the prediction problem.
+2. Identify features and target.
+3. Inspect and validate data.
+4. Separate training and test observations.
+5. Fit model parameters on training data.
+6. Evaluate training performance.
+7. Evaluate unseen test performance.
+8. Compare with a baseline.
+9. Inspect errors and limitations.
+10. Document results and assumptions.
+
+IMPORTANT RULES:
+
+Never fit a model using the test targets.
+
+Avoid choosing a model based repeatedly on the
+same final test set.
+
+Apply data transformations carefully to prevent
+information leakage.
+
+A baseline gives context to performance metrics.
+
+Synthetic data is useful for controlled experiments,
+but it does not prove real-world reliability.
+
+Saving random seeds improves reproducibility.
+
+
+============================================================
+10. PHASE 1 SELF-ASSESSMENT
+============================================================
+
+Can I explain the difference between rules and learning?
+
+Can I write a Python function using loops and conditions?
+
+Can I calculate median without a statistics library?
+
+Can I explain NumPy shape, axis, and broadcasting?
+
+Can I use Pandas to load and clean a CSV dataset?
+
+Can I choose between bar, histogram, and scatter plots?
+
+Can I calculate a dot product manually?
+
+Can I explain why gradient descent updates weights?
+
+Can I distinguish population from sample statistics?
+
+Can I explain the purpose of a separate test dataset?
+
+Can I explain why a trained model might fail
+on data it has never seen?

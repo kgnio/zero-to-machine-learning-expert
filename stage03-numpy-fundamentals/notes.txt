@@ -1,0 +1,62 @@
+
+STAGE 03 - NUMPY FUNDAMENTALS
+
+NumPy:
+A Python library for numerical computing.
+
+Array:
+A data structure that stores elements in a structured collection.
+
+ndarray:
+NumPy's multidimensional array type.
+
+Vector:
+A one-dimensional array of numerical values.
+
+Matrix:
+A two-dimensional arrangement of numerical values.
+
+Shape:
+The size of an array along each axis.
+
+Dimension:
+An independent axis of an array.
+
+Data Type (dtype):
+The type of values stored in an array.
+
+Indexing:
+Accessing array elements by their positions.
+
+Slicing:
+Selecting a range of elements from an array.
+
+Vectorization:
+Performing array operations without explicitly writing Python loops.
+
+Broadcasting:
+A mechanism for combining arrays with compatible shapes.
+
+Boolean Mask:
+An array of Boolean values used to select elements.
+
+Element-wise Operation:
+An operation applied separately to corresponding array elements.
+
+Axis:
+A direction along which an array operation is performed.
+
+Mean:
+The arithmetic average of numerical values.
+
+Transpose:
+An operation that exchanges the axes of a matrix.
+
+Argmax:
+The index of the maximum value in an array.
+
+Argmin:
+The index of the minimum value in an array.
+
+Clipping:
+Limiting numerical values to a specified range.

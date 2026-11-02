@@ -1,0 +1,65 @@
+
+STAGE 02 - DATA STRUCTURES AND ALGORITHMS
+
+Data Structure:
+A way to organize and store data for efficient access and processing.
+
+List:
+An ordered, mutable collection that allows duplicate values.
+
+Tuple:
+An ordered, immutable collection.
+
+Set:
+An unordered collection of unique elements.
+
+Dictionary:
+A collection of key-value pairs.
+
+Mutable:
+An object that can be modified after creation.
+
+Immutable:
+An object that cannot be modified after creation.
+
+Searching:
+The process of locating a value within a collection.
+
+Sorting:
+The process of arranging values in a specific order.
+
+Linear Search:
+A search algorithm that checks elements sequentially.
+
+Binary Search:
+A search algorithm that repeatedly divides a sorted search space.
+
+Algorithm:
+A finite sequence of instructions used to solve a problem.
+
+Time Complexity:
+How an algorithm's execution cost grows with input size.
+
+Big O Notation:
+A notation for describing asymptotic upper bounds on growth.
+
+Constant Time - O(1):
+An operation whose cost does not grow with input size.
+
+Linear Time - O(n):
+An operation whose cost grows proportionally to input size.
+
+Quadratic Time - O(n^2):
+An operation whose cost grows quadratically with input size.
+
+Data Validation:
+The process of checking whether data satisfies defined rules.
+
+Data Cleaning:
+The process of identifying and handling invalid or problematic data.
+
+Median:
+The middle value of sorted data, or the mean of the two middle values.
+
+Duplicate:
+A repeated value or record within a dataset.

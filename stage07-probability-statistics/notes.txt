@@ -1,0 +1,71 @@
+
+STAGE 07 - PROBABILITY AND STATISTICS
+
+Descriptive Statistics:
+Methods used to summarize and describe data.
+
+Population:
+The complete set of observations of interest.
+
+Sample:
+A subset of observations selected from a population.
+
+Mean:
+The arithmetic average of numerical values.
+
+Variance:
+A measure of squared deviations from the mean.
+
+Standard Deviation:
+The square root of variance.
+
+Range:
+The difference between maximum and minimum values.
+
+Probability:
+A numerical measure of how likely an event is.
+
+Sample Space:
+The set of all possible outcomes of a random experiment.
+
+Event:
+A set of outcomes from a random experiment.
+
+Conditional Probability:
+The probability of an event given another event.
+
+Random Variable:
+A variable whose value depends on a random outcome.
+
+Probability Distribution:
+A description of how probabilities are assigned to outcomes.
+
+Discrete Distribution:
+A probability distribution over countable outcomes.
+
+Continuous Distribution:
+A probability distribution over continuous values.
+
+Bernoulli Distribution:
+A distribution with two possible outcomes.
+
+Normal Distribution:
+A symmetric, bell-shaped probability distribution.
+
+Expected Value:
+The probability-weighted average of a random variable.
+
+Sampling:
+The process of selecting observations from a population.
+
+Sampling Distribution:
+The probability distribution of a sample statistic.
+
+Central Limit Theorem:
+A theorem describing the approximate normality of sample means under suitable conditions.
+
+Random Seed:
+A value used to initialize a reproducible pseudorandom sequence.
+
+Statistical Simulation:
+The use of generated data to investigate statistical behavior.

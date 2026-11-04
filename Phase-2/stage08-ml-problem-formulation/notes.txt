@@ -1,0 +1,97 @@
+
+STAGE 08 - ML PROBLEM FORMULATION AND DATA SPLITTING
+
+Problem Formulation:
+Defining the prediction objective, available inputs,
+expected outputs, and evaluation criteria.
+
+Regression:
+A supervised learning task that predicts numerical values.
+
+Classification:
+A supervised learning task that predicts class labels.
+
+Binary Classification:
+Classification involving two possible classes.
+
+Multiclass Classification:
+Classification involving more than two classes.
+
+Feature:
+An input variable used for prediction.
+
+Target:
+The output variable a supervised model learns to predict.
+
+Feature Matrix (X):
+A matrix containing input features for observations.
+
+Target Vector (y):
+A vector containing the corresponding target values.
+
+Training Set:
+Data used to learn model parameters.
+
+Validation Set:
+Data used to compare models or select hyperparameters.
+
+Test Set:
+Held-out data used for final model evaluation.
+
+Data Splitting:
+Partitioning a dataset into separate subsets.
+
+Random State:
+A seed or configuration for reproducible randomness.
+
+Stratified Splitting:
+Splitting data while approximately preserving class proportions.
+
+Data Leakage:
+Information improperly entering training or model selection
+and producing misleading evaluation results.
+
+Preprocessing:
+Transforming raw data into a form suitable for modeling.
+
+Feature Scaling:
+Transforming numerical features to comparable scales.
+
+Standardization:
+Transforming features using a mean and standard deviation.
+
+Fit:
+Learning parameters from data.
+
+Transform:
+Applying a previously defined transformation.
+
+Fit Transform:
+Learning transformation parameters and applying them.
+
+Data Pipeline:
+An organized sequence of data processing operations.
+
+Data Integrity:
+The correctness and consistency of data.
+
+Reproducibility:
+The ability to repeat a process and obtain consistent results.
+
+KEY RULES:
+
+Split data before fitting data-dependent preprocessing steps.
+
+Fit preprocessing transformations on training data only.
+
+Use the learned transformations for validation and test data.
+
+Keep the test set separate from model selection.
+
+Preserve feature-target alignment when shuffling or splitting.
+
+Use stratification when appropriate for classification tasks.
+
+Inspect dataset shapes and class proportions after splitting.
+
+Avoid information leakage between data subsets.
